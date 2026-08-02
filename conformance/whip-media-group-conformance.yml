@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.whipmedia.com/news/whip-media-successfully-completes-soc-1-and-soc-2-type-ii-audits-for-sixth-consecutive-year/
+summary: >-
+  Whip Media publicly reports completing SOC 1 and SOC 2 Type II audits for the
+  sixth consecutive year, its published compliance posture for the Helix
+  media/entertainment SaaS platform. No public API surface is documented, so
+  cross-cutting API standards (OAuth2, OIDC, RFC 9457, etc.) cannot be derived
+  from an OpenAPI specification at this time.
+standards:
+- id: soc-1-type-ii
+  conforms: true
+  evidence: Company news announcement of completed SOC 1 Type II audit (sixth consecutive year)
+  source: https://www.whipmedia.com/news/whip-media-successfully-completes-soc-1-and-soc-2-type-ii-audits-for-sixth-consecutive-year/
+- id: soc-2-type-ii
+  conforms: true
+  evidence: Company news announcement of completed SOC 2 Type II audit (sixth consecutive year)
+  source: https://www.whipmedia.com/news/whip-media-successfully-completes-soc-1-and-soc-2-type-ii-audits-for-sixth-consecutive-year/

@@ -1,8 +1,18 @@
 aid: whip-media-group
 name: Whip Media Group
-description: 'Whip Media Group is a company surfaced as a portfolio company of ivp and added to the API
-  Evangelist network as a stub for enrichment. Sector: media. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Whip Media is a SaaS company powering the global media and entertainment
+  industry through its AI-native Helix platform, which connects content
+  licensors and licensees across the rights-to-royalties value chain. Helix
+  spans supply-chain modules for licensees (avails management, contract
+  management, royalties processing) and distribution modules for licensors
+  (asset order management, performance tracking, revenue recognition), plus
+  AI-powered Title Management for metadata enrichment and standardization.
+  Customers include NBCU, Warner Bros. Discovery, Paramount, Sony, and
+  Lionsgate. The company publishes an SEO llms.txt and reports SOC 1 and SOC 2
+  Type II audits for a sixth consecutive year, but does not expose a public
+  developer portal or documented API. Added to the API Evangelist network as a
+  portfolio company of IVP.
 url: https://raw.githubusercontent.com/api-evangelist/whip-media-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - ivp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://whipmedia.com/wp-content/uploads/2025/08/cropped-icon-favicon-wm.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Media
+- Entertainment
+- Content Licensing
+- SaaS
+- Metadata
+- Royalties
+- Rights Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +53,22 @@ maintainers:
 common:
 - type: Website
   url: https://www.whipmedia.com
+- type: Blog
+  url: https://www.whipmedia.com/blog/
+- type: Support
+  url: https://www.whipmedia.com/contact/
+- type: PrivacyPolicy
+  url: https://www.whipmedia.com/privacy-policy/
+- type: LLMsTxt
+  url: llms/whip-media-group-llms.txt
+- type: Conformance
+  url: conformance/whip-media-group-conformance.yml
+- type: Compliance
+  url: https://www.whipmedia.com/news/whip-media-successfully-completes-soc-1-and-soc-2-type-ii-audits-for-sixth-consecutive-year/
+- type: DomainSecurity
+  url: security/whip-media-group-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

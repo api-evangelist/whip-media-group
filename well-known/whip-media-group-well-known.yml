@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: probed
+host: https://www.whipmedia.com
+note: >-
+  No /.well-known/ discovery documents are published. All probed paths return
+  404 (soft 404 from the WordPress/Yoast marketing site). No SecurityTxt,
+  OpenID/OAuth discovery, api-catalog, or ai-plugin. Recorded as negative data;
+  no WellKnown/SecurityTxt pointer wired.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
